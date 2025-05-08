@@ -16,7 +16,7 @@ export default function Home () {
     </div>
     <div
       className=
-          "fixed top-0 left-0 w-screen h-screen" 
+          "fixed top-0 left-0 w-screen h-screen mx-1 my-1" 
       style={{ cursor: "url('/smallerduckcursor.png'), auto" }}
     >
       <div className=
