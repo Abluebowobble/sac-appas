@@ -1,12 +1,8 @@
-import {useEffect} from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import Info from './Info';
 import Button from './Button';
 
 export default function Home () {
-  useEffect(() => {
-    console.log(`CARD IS MOUNTED`)
-  }, []);
 
   return (
     <>
@@ -59,6 +55,5 @@ export default function Home () {
     </>
   )
 }
-//className="cursor-pointer"
 
 

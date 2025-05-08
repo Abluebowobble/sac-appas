@@ -8,8 +8,8 @@ const Info = () => {
       When: November 32, 2025 (5pm-10pm)<br/>
 Where: Emily's Mansion Banquet Hall<br/></div>
 <div className="text-right">
-Ticket price (students): $30<br/>
-Ticket price (guests): $105<br/></div></div>
+Ticket price (students): <b>$30</b><br/>
+Ticket price (guests): <b>$105</b><br/></div></div>
     </>
   )
 }
