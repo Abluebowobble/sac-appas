@@ -14,8 +14,7 @@ export default function Home () {
       <iframe 
           src='https://my.spline.design/liquidgold-LGBaObWfXzgi1ZyNRxaDanXw/' 
           frameborder='0' 
-          width='100%' 
-          height='641px'
+          className="h-screen w-screen flex flex-wrap"
           >
       </iframe>
     </div>
