@@ -34,9 +34,7 @@ export default function LoadingScreen() {
             <iframe
             src='https://my.spline.design/tvatimedoor-X8iBN9wMxO31OMEAVuHtgtPy/' 
             frameborder='0' 
-            width='100%' 
-            height='641px'
-            className="flex flex-wrap"
+            className="h-screen w-screen flex flex-wrap"
             ></iframe>
     </div>
 
