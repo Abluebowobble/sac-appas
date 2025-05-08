@@ -24,11 +24,11 @@ body {
   @keyframes aa {
     0%,
     100% {
-      transform: scale(500) translateX(-500px);
+      transform: scale(500) translate(-50vw, -100px);
     }
     30%,
     70% {
-      transform: scale(500) translateX(150px);
+      transform: scale(500) translate(10vw, -100px);
     }
   }
 }

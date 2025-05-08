@@ -26,7 +26,7 @@ export default function ScreenManager() {
         {animate && (
           <img
             src="/black.png"
-            className="animate-tocorner scale-1 -translate-x-50"
+            className="animate-tocorner scale-1 -translate-x-50 z-50"
           />
         )}
       </div>
