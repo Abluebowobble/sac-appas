@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import "tailwindcss";
+
+body {
+  @apply bg-black text-white;
+}
+
+@theme {
+  --animate-tocorner: aa 5s ease-in-out 1;
+  --font-dorsa: "Dorsa", sans-serif;
+  --font-calsans: "Cal Sans", sans-serif;
+  --animate-fadein: bb 3s ease-in 1;
+
+  @keyframes bb {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes aa {
+    0%,
+    100% {
+      transform: scale(500) translateX(-500px);
+    }
+    30%,
+    70% {
+      transform: scale(500) translateX(150px);
+    }
+  }
+}
+
